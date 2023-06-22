@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "parcel src/index.pug",
+    "build": "parcel build src/index.pug"
+  },
+  "devDependencies": {
+    "@parcel/transformer-pug": "^2.7.0",
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "pug": "^3.0.2"
+  },
+  "dependencies": {
+    "bemto.pug": "^2.1.0",
+    "normalize.css": "^8.0.1"
+  }
+}

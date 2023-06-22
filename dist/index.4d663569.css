@@ -1,0 +1,65 @@
+button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #e966a0;
+  border: none;
+  border-radius: 1000px;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 36px;
+  display: inline-flex;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px #0000003d, 0 17px 50px #00000030;
+}
+
+#userInfo {
+  text-align: left;
+  margin-top: 20px;
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#name, #age, #email, #address, #position, #skills {
+  font-family: Lucida Sans, Lucida Sans Regular, Lucida Grande, Lucida Sans Unicode, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+#image {
+  width: 700px;
+  height: 700px;
+  position: fixed;
+  top: 10px;
+  right: 50%;
+}
+
+#data-table {
+  width: 40%;
+  position: fixed;
+  top: 20%;
+  left: 50%;
+}
+
+#data-table td {
+  padding: 15px;
+}
+
+#data-table tr:nth-child(2n) {
+  background-color: #fff;
+}
+
+#data-table tr:hover {
+  background-color: #f8e8ee;
+}
+
+/*# sourceMappingURL=index.4d663569.css.map */
